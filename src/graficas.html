@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="bg-slate-200">
+
+    <input type="button" value="Graficas " onclick="mostrar()" class="border border-black bg-black bg-opacity-80  text-white font-bold m-auto mt-5 mb-5 w-48 justify-center text-2xl flex rounded-full h-16">
+
+    <div class=" mx-10  shadow-black shadow-xl bg-white mb-5 justify-center ">
+
+        <div class="  flex justify-center items-center m-auto ">
+
+            <div class="w-1/3 mx-20  h-80  rounded-md mt-20 justify-center flex border-[3px]  border-yellow-300 bg-white shadow-inner shadow-black">
+                <canvas id="g1"></canvas>
+            </div>
+        
+            <div class=" w-1/3 mx-20 h-80 mt-20 rounded-md flex justify-center border-[3px] border-black bg-white shadow-inner shadow-black">
+                <canvas id="g2"></canvas>
+            </div>
+
+        </div>
+
+        <div class="  flex justify-center ">
+
+            <div class="w-1/3 mx-20 h-80 mt-10 rounded-md justify-center flex border-[3px]  border-yellow-300 bg-white shadow-inner shadow-black">
+                <canvas id="g3"></canvas>
+            </div>
+    
+            <div class=" w-1/3 h-80 mt-10 rounded-md  mx-20 flex justify-center border-[3px] border-black bg-white shadow-inner shadow-black">
+                <canvas id="g4"></canvas>
+            </div>
+
+        </div>
+
+        <div class=" flex justify-center">
+            <div class=" w-1/3 h-80 mt-10 mb-10 rounded-md flex justify-center border-[3px] border-black bg-white shadow-inherit shadow-xl">
+                <canvas id="g5"></canvas>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <script src="graficas.js"></script>
+</body>
+</html>
