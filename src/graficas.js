@@ -4,7 +4,7 @@ var datosY=["pollo","tamal","arroz","jugo"];
 
 function mostrar (){
 
-    const cta =document.getElementById("g1").getContext("2d");
+    const cta = document.getElementById("g1").getContext("2d");
 
     if (window.grafica) {
         window.grafica.clear();
@@ -39,20 +39,20 @@ function mostrar (){
             },
             animations: {
                 tension: {
-                  duration: 1000,
-                  easing: 'linear',
-                  from: 1,
-                  to: 0,
-                  loop: true
+                duration: 1000,
+                easing: 'linear',
+                from: 1,
+                to: 0,
+                loop: true
                 }
             },
             plugins: {
-              legend: {
+            legend: {
                 display: true
-              },
-              tooltip: {
+            },
+            tooltip: {
                 enabled: true  
-              }
+            }
             }
         }
         
@@ -92,20 +92,20 @@ function mostrar (){
             },
             animations:{
                 tension: {
-                  duration: 1000,
-                  easing: 'linear',
-                  from: 1,
-                  to: 0,
-                  loop: true
+                duration: 1000,
+                easing: 'linear',
+                from: 1,
+                to: 0,
+                loop: true
                 }
             },
             plugins: {
-              legend: {
+            legend: {
                 display: true
-              },
-              tooltip: {
+            },
+            tooltip: {
                 enabled: true
-              }
+            }
             }
         }
         
@@ -145,20 +145,20 @@ function mostrar (){
             },
             animations:{
                 tension: {
-                  duration: 1000,
-                  easing: 'linear',
-                  from: 1,
-                  to: 0,
-                  loop: true
+                duration: 1000,
+                easing: 'linear',
+                from: 1,
+                to: 0,
+                loop: true
                 }
             },
             plugins: {
-              legend: {
+            legend: {
                 display: true
-              },
-              tooltip: {
+            },
+            tooltip: {
                 enabled: true
-              }
+            }
             }
         }
         
@@ -198,20 +198,20 @@ function mostrar (){
             },
             animations:{
                 tension: {
-                  duration: 1000,
-                  easing: 'linear',
-                  from: 1,
-                  to: 0,
-                  loop: true
+                duration: 1000,
+                easing: 'linear',
+                from: 1,
+                to: 0,
+                loop: true
                 }
             },
             plugins: {
-              legend: {
+            legend: {
                 display: true
-              },
-              tooltip: {
+            },
+            tooltip: {
                 enabled: true
-              }
+            }
             }
         }
         
@@ -252,12 +252,12 @@ function mostrar (){
             },
             
             plugins: {
-              legend: {
+            legend: {
                 display: true
-              },
-              tooltip: {
+            },
+            tooltip: {
                 enabled: true
-              }
+            }
             }
         }
         
