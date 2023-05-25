@@ -7,19 +7,20 @@
     <link href="/dist/output.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<body class="bg-slate-200">
+<body onload="mostrar()" class="bg-slate-200">
 
-    <input type="button" value="Graficas " onclick="mostrar()" class="border border-black bg-black bg-opacity-80  text-white font-bold m-auto mt-5 mb-5 w-48 justify-center text-2xl flex rounded-full h-16">
+    <div class=" mx-10  shadow-black shadow-xl bg-white mb-5 justify-center pb-5 mt-10">
 
-    <div class=" mx-10  shadow-black shadow-xl bg-white mb-5 justify-center ">
+        <h1 class="text-center font-bold text-3xl pt-7 ">Representacion Grafica del Estres Laboral</h1>
+        <hr class="border-[2px] mx-80 border-black rounded-full">
 
         <div class="  flex justify-center items-center m-auto ">
 
-            <div class="w-1/3 mx-20  h-80  rounded-md mt-20 justify-center flex border-[3px]  border-yellow-300 bg-white shadow-inner shadow-black">
+            <div class="w-1/2 mr-10 ml-10  h-80  rounded-md mt-20 justify-center flex border-[3px]  border-slate-400 bg-white shadow-2xl shadow-black py-5 px-2">
                 <canvas id="g1"></canvas>
             </div>
         
-            <div class=" w-1/3 mx-20 h-80 mt-20 rounded-md flex justify-center border-[3px] border-black bg-white shadow-inner shadow-black">
+            <div class=" w-1/2 mr-10 h-80 mt-20 rounded-md flex justify-center border-[3px] border-slate-400  bg-white shadow-2xl   shadow-black py-5">
                 <canvas id="g2"></canvas>
             </div>
 
@@ -27,21 +28,24 @@
 
         <div class="  flex justify-center ">
 
-            <div class="w-1/3 mx-20 h-80 mt-10 rounded-md justify-center flex border-[3px]  border-yellow-300 bg-white shadow-inner shadow-black">
+            <div class="w-1/2 mr-10 ml-10 h-80 mt-10 rounded-md justify-center flex border-[3px]  border-slate-400  bg-white shadow-2xl shadow-black py-5 px-2">
                 <canvas id="g3"></canvas>
             </div>
     
-            <div class=" w-1/3 h-80 mt-10 rounded-md  mx-20 flex justify-center border-[3px] border-black bg-white shadow-inner shadow-black">
+            <div class=" w-1/2 mr-10 h-80 mt-10 rounded-md flex justify-center border-[3px] border-slate-400  bg-white shadow-2xl shadow-black py-5">
                 <canvas id="g4"></canvas>
             </div>
 
         </div>
 
         <div class=" flex justify-center">
-            <div class=" w-1/3 h-80 mt-10 mb-10 rounded-md flex justify-center border-[3px] border-black bg-white shadow-inherit shadow-xl">
+            <div class=" w-2/4 h-96 mt-10  rounded-md flex justify-center border-[3px] border-slate-400  bg-white shadow-inherit shadow-2xl py-5">
                 <canvas id="g5"></canvas>
             </div>
         </div>
+
+        <input type="button" value="Print" class=" cursor-pointer border border-slate-400  bg-black bg-opacity-80  text-white font-bold ml-auto mx-7 w-48 justify-center text-2xl flex rounded-full h-16">
+
     </div>
     
 
