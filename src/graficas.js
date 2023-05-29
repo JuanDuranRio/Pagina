@@ -1,5 +1,26 @@
-
 var datosY=["nunca","Casi Nunca","Pocas Veces","Algunas Veces"];
+const v1= document.getElementById('valor1')
+const v2= document.getElementById('valor2')
+const v3= document.getElementById('valor3')
+const v4= document.getElementById('valor4')
+
+
+const boton = document.getElementById("boton");
+const div = document.getElementById("DIV");
+boton.addEventListener("click", () => {
+    div.style.display = "flex";
+    v1.value = "";
+    v2.value = "";
+    v3.value = "";
+    v4.value = "";
+})
+
+const boton2 = document.getElementById("boton2");
+
+boton2.addEventListener("click", () =>{
+    div.style.display = "none";
+    mostrar();
+})
 
 function mostrar (){
 

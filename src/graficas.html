@@ -8,20 +8,40 @@
     <link href="/dist/output.css" rel="stylesheet">
     <title>Stringere</title>
 </head>
-<body class="bg-[#C8AD7F]">
+<body class="bg-[#C8AD7F] relative">
 
-    <div class="felx  w-full text-center my-5">
-        <input type="text" class="h-14 w-32 border border-black rounded-md bg-stone-400  mx-5 text-center font-bold shadow-inner shadow-black  " id="valor1" >
-        <input type="text" class="h-14 w-32 border border-black rounded-md bg-stone-400  mx-5 text-center font-bold shadow-inner shadow-black  " id="valor2" >
-        <input type="text" class="h-14 w-32 border border-black rounded-md bg-stone-400  mx-5 text-center font-bold shadow-inner shadow-black  " id="valor3" >
-        <input type="text" class="h-14 w-32 border border-black rounded-md bg-stone-400  mx-5 text-center font-bold shadow-inner shadow-black  " id="valor4" >
-        <input type="button" value="Graficar" onclick="mostrar()" class=" shadow-xl shadow-white font-bold h-14 w-32 border-[2px] border-black rounded-md bg-stone-400  mx-5 text-2xl text-center cursor-pointer hover:bg-stone-600 hover:text-white">
-        <input type="reset" value="Reintentar" onclick="reintentar()" class=" shadow-xl shadow-white font-bold h-14 w-36 border-[2px] border-black rounded-md bg-stone-400  mx-5 text-2xl text-center cursor-pointer hover:bg-stone-600 hover:text-white">
+    <div id="DIV" class="h-full absolute w-full bg-transparent items-center hidden  justify-center">
+        <div class="w-full h-full flex items-center backdrop-opacity-100 backdrop-blur-md justify-center">
+            <div class="w-[600px] h-[600px] bg-[#C8AD7F] rounded-md p-3 border-4 border-black">
+
+                <h1 class="text-4xl font-serif font-bold text-center">Ingreso De Datos</h1>
+
+                <div class="w-full h-1 bg-black mt-2 mb-[5%]"></div>
+
+                <div class="flex-initial text-center">
+                    <p class="text-xl font-bold mb-[1%]">Primer Valor</p>
+                    <input type="text" class="outline-none h-10 w-[45%] rounded-md p-2 text-center font-semibold mb-[5%]" id="valor1" autocomplete="off" autofocus>
+
+                    <p class="text-xl font-bold mb-[1%]">Segundo Valor</p>
+                    <input type="text" class="outline-none h-10 w-[45%] rounded-md p-2 text-center font-semibold mb-[5%]" autocomplete="off" id="valor2">
+
+                    <p class="text-xl font-bold mb-[1%]">Tercer Valor</p>
+                    <input type="text" class="outline-none h-10 w-[45%] rounded-md p-2 text-center font-semibold mb-[5%]" id="valor3" autocomplete="off">
+
+                    <p class="text-xl font-bold mb-[1%]">Cuarto Valor</p>
+                    <input type="text" class="outline-none h-10 w-[45%] rounded-md p-2 text-center font-semibold mb-[5%]" id="valor4" autocomplete="off"><br>
+
+                    <input type="button" id="boton2" value="Iniciar" class="cursor-pointer bg-black text-white font-bold w-48 text-2xl rounded-full h-16">
+                </div>
+                
+            </div>
+        </div>
+        
     </div>
 
-    <div class=" mx-10 bg-gray-800 rounded-md mb-5 justify-center pb-5 mt-10">
+    <div class=" mx-10 bg-gray-800 rounded-md mb-10 justify-center pb-5 mt-10">
 
-        <h1 class="text-center font-bold font-serif text-white text-3xl pt-7 ">Representacion Grafica del Estres Laboral</h1>
+        <h1 class="text-center font-bold font-serif text-white text-3xl pt-7 ">Gráficas</h1>
         <hr class="border-[2px] mx-80 border-white rounded-full">
 
         <div class="  flex justify-center items-center m-auto ">
@@ -54,8 +74,8 @@
             </div>
         </div>
 
-        <input type="button" value="Print" class=" cursor-pointer border border-slate-400  bg-black bg-opacity-80  text-white font-bold ml-auto mx-7 w-48 justify-center text-2xl flex rounded-full h-16">
-
+        <input type="button" value="Print" class="cursor-pointer bg-[#C8AD7F] bg-opacity-80 text-white font-bold ml-auto mx-7 w-48 justify-center text-2xl flex rounded-full h-16">
+        <input type="button" id="boton" value="Insert" class="cursor-pointer bg-[#C8AD7F] bg-opacity-80 text-white font-bold ml-auto mx-7 mt-4 w-48 justify-center text-2xl flex rounded-full h-16">
     </div>
     
 
