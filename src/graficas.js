@@ -4,6 +4,24 @@ const v2= document.getElementById('valor2')
 const v3= document.getElementById('valor3')
 const v4= document.getElementById('valor4')
 
+function imprimir(elemento) {
+    var ventana = window.open('','PRINT','height=400, width = 600');
+    ventana.document.write('<html><head><title>' + document.title + '</title>');
+    ventana.document.write('</head><body >');
+    ventana.document.write(elemento.innerHTML);
+    ventana.document.write('</body></html>');
+    ventana.document.close();
+    ventana.focus();
+    ventana.print();
+    ventana.close();
+    return true;
+}
+
+document.querySelector("#Imprimir").addEventListener("click", function() {
+    var div = document.querySelector("#imprimirDiv");
+    imprimir(div);
+})
+
 
 const boton = document.getElementById("boton");
 const div = document.getElementById("DIV");
