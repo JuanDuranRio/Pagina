@@ -62,7 +62,7 @@ function mostrar (){
         data:{
             labels:datosY,
             datasets:[{
-                label:'cantidad de comidas',
+                label:'resultados',
                 data:datosX,
                     backgroundColor:[
                         'rgb(66, 134, 244)',
@@ -128,7 +128,7 @@ function mostrar (){
         data:{
             labels:datosY,
             datasets:[{
-                label:'cantidad de comidas',
+                label:'resultados',
                 data:datosX,
                     backgroundColor:[
                         'rgb(66, 134, 244)',
@@ -192,7 +192,7 @@ function mostrar (){
         data:{
             labels:datosY,
             datasets:[{
-                label:'cantidad de comidas',
+                label:'resultados',
                 data:datosX,
 
                     backgroundColor: [
@@ -268,7 +268,7 @@ function mostrar (){
         data:{
             labels:datosY,
             datasets:[{
-                label:'cantidad de comidas',
+                label:'resultados',
                 data:datosX,
                     backgroundColor:[
                         'rgb(0, 255, 255,0.7)',
@@ -351,7 +351,7 @@ function mostrar (){
         data:{
             labels:datosY,
             datasets:[{
-                label:'cantidad de comidas',
+                label:'resultados',
                 data:datosX,
 
                     backgroundColor:'rgba(54, 162, 235, 0.5)',
@@ -423,7 +423,7 @@ function reintentar(){
         data:{
             labels:datosY,
             datasets:[{
-                label:'cantidad de comidas',
+                label:'resultados',
                 data:datosX,
                     backgroundColor:[
                         'rgb(66, 134, 244)',
@@ -489,7 +489,7 @@ function reintentar(){
         data:{
             labels:datosY,
             datasets:[{
-                label:'cantidad de comidas',
+                label:'resultados',
                 data:datosX,
                     backgroundColor:[
                         'rgb(66, 134, 244)',
@@ -553,7 +553,7 @@ function reintentar(){
         data:{
             labels:datosY,
             datasets:[{
-                label:'cantidad de comidas',
+                label:'resultados',
                 data:datosX,
 
                     backgroundColor: [
@@ -629,7 +629,7 @@ function reintentar(){
         data:{
             labels:datosY,
             datasets:[{
-                label:'cantidad de comidas',
+                label:'resultados',
                 data:datosX,
                     backgroundColor:[
                         'rgb(0, 255, 255,0.7)',
@@ -712,7 +712,7 @@ function reintentar(){
         data:{
             labels:datosY,
             datasets:[{
-                label:'cantidad de comidas',
+                label:'resultados',
                 data:datosX,
 
                     backgroundColor:'rgba(54, 162, 235, 0.5)',
